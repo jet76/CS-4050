@@ -1,12 +1,15 @@
+import java.util.Scanner;
 public class SumsToN {
     
-    private static int n;
+    static int n;
     
     public static void main(String [] args)
     {    
+        Scanner s = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
-        n = StdIn.readInt();
-        for(int i = 1; i <= n; i++) recurse(i, 0, "");        
+        n = s.nextInt();
+        s.close();
+        for(int i = 1; i <= n; i++) recurse(i, 0, "");
     }
     
     private static void recurse(int num, int sum, String output)
@@ -19,7 +22,7 @@ public class SumsToN {
             return;
         }
         else output += num + " + ";
-        for(int i = num; i < n; i++) recurse(i, sum, output);
+        for(int i = num; i < n; i++) recurse(i, sum, output);       
     }
     
 }
