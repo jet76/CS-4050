@@ -17,9 +17,7 @@ I will actually use a data file for my test cases and redirect input. Here is th
 Then the program must display, preferably nicely formatted, the successive tables D0, D1, ..., Dn, with 1 indicated as a dash, and each cell containing both the optimal length and the intermediate vertex, if any, that produces it (if the optimal length is just an edge, use 0 as the intermediate vertex).
 
 When you are satisfied with your work, email me with one file as an attachment, with all group members CC’d as usual.
-Your main class should be named Floyd. Be careful of going overboard on unnecessarily
-complex object-orientation—this assignment can trivially be done using one class, or at
-most two.
-If your entire application consists of Floyd.java send me that. Or, if your application
-uses more than one class, attach them all. If you use an IDE, be sure to remove any
-non-portable extra stuff.
+
+Your main class should be named Floyd. Be careful of going overboard on unnecessarily complex object-orientation—this assignment can trivially be done using one class, or at most two.
+
+If your entire application consists of Floyd.java send me that. Or, if your application uses more than one class, attach them all. If you use an IDE, be sure to remove any non-portable extra stuff.
