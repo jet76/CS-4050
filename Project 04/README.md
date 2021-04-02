@@ -1,4 +1,5 @@
-# Project 4 Sums to n Problem by Brute Force
+# Project 4
+## Sums to n Problem by Brute Force
 
 Consider the “sums to n problem:” given a positive integer n, list all the different ways to get a collection of positive integers adding up to n. Assume that we don’t care about
 order, so 1 + 2 and 2 + 1 are the same possibility.
