@@ -7,19 +7,16 @@ Test your application on some sample directed graphs.
 Your program must get from the keyboard the defining information for a directed graph, in precisely this order: number of vertices, followed by the weights, row by row and column by column, where −1 is used to indicate that there is no edge between the two vertices. You must use 0 for the diagonal weights (leaving out this meaningless weightt is a bad idea because it messes up the formatting).
 
 I will actually use a data file for my test cases and redirect input. Here is the correct data file for the example:  
-<span style="font-family: 'consolas'">5</span>
+5  
 0 1 -1 1 5  
 9 0 3 2 -1  
 -1 -1 0 4 -1  
 -1 -1 2 0 3  
 3 -1 -1 -1 0
 
-Then the program must display, preferably nicely formatted, the successive tables D0, D1, 
-. . ., Dn, with 1 indicated as a dash, and each cell containing both the optimal length and
-the intermediate vertex, if any, that produces it (if the optimal length is just an edge, use
-0 as the intermediate vertex).
-When you are satisfied with your work, email me with one file as an attachment, with all
-group members CC’d as usual.
+Then the program must display, preferably nicely formatted, the successive tables D0, D1, ..., Dn, with 1 indicated as a dash, and each cell containing both the optimal length and the intermediate vertex, if any, that produces it (if the optimal length is just an edge, use 0 as the intermediate vertex).
+
+When you are satisfied with your work, email me with one file as an attachment, with all group members CC’d as usual.
 Your main class should be named Floyd. Be careful of going overboard on unnecessarily
 complex object-orientation—this assignment can trivially be done using one class, or at
 most two.
