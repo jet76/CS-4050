@@ -1,4 +1,4 @@
-# Project 20 Breaking ECC by Social Hacking
+# Project 20 - Breaking ECC by Social Hacking
 
 Suppose Alice and Bob have agreed to use these values for exchanging encrypted information (following the published secp256k1 standard):  
 p = 115 792 089 237 316 195 423 570 985 008 687 907 853 269 984 665 640 564 039 457 584 007 908 834 671 663  
