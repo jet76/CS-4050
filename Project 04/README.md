@@ -18,7 +18,9 @@ group members (0 through 2) other than the sender CC’ed.
 Note that I want to be able to download your attached source files into a folder, go into
 that folder and at the command line type
 
-```javac SumsToN.java```
+```console
+javac SumsToN.java
+'''
 and then type
 `java SumsTo`
 
