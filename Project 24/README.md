@@ -14,7 +14,7 @@ I will actually use a data file for my test cases and redirect input. Here is th
 -1 -1 2 0 3  
 3 -1 -1 -1 0
 
-Then the program must display, preferably nicely formatted, the successive tables D0, D1, ..., Dn, with 1 indicated as a dash, and each cell containing both the optimal length and the intermediate vertex, if any, that produces it (if the optimal length is just an edge, use 0 as the intermediate vertex).
+Then the program must display, preferably nicely formatted, the successive tables D_0, D1, ..., Dn, with 1 indicated as a dash, and each cell containing both the optimal length and the intermediate vertex, if any, that produces it (if the optimal length is just an edge, use 0 as the intermediate vertex).
 
 When you are satisfied with your work, email me with one file as an attachment, with all group members CC’d as usual.
 
