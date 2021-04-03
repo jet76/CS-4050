@@ -1,5 +1,4 @@
-# CS-4050
-Assignments from Algorithms &amp; analysis course.
+# CS-4050 Algorithms &amp; Analysis
 
 - [Project 04](Project%2004/) Sums to n Problem by Brute Force
 - [Project 20](Project%2020/) Breaking ECC by Social Hacking
