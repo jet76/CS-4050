@@ -376,16 +376,13 @@ Now, use your description to fill in all the cells in the chart below. Note that
     <td></td>
   </tr>
 </table>
-! Once the chart is filled in, write down the optimal way of aligning the two sequences, and
-verify that the penalty is correct.
-! Demonstrate (draw your own tidy chart) your dynamic programming algorithm for the
-instance of the sequence alignment problem with the sequences GACATATTAC and
-AACGTAGAC. Fill in the chart and clearly state the optimal insertion of gaps that gives the
-optimal score.
-All of the preceding work was preparation for the actual work of this Project, which is to
-create a Java application that will solve the sequence alignment problem.
-Specifically, create a Java application that will ask the user to enter two strings, will
-generate and fill in the dynamic programming chart and display it, and will then display
-in a nice way exactly how the gaps should be optimally inserted and report the optimal
-score.
+
+Once the chart is filled in, write down the optimal way of aligning the two sequences, and verify that the penalty is correct.
+
+Demonstrate (draw your own tidy chart) your dynamic programming algorithm for the instance of the sequence alignment problem with the sequences GACATATTAC and AACGTAGAC. Fill in the chart and clearly state the optimal insertion of gaps that gives the optimal score.
+
+All of the preceding work was preparation for the actual work of this Project, which is to create a Java application that will solve the sequence alignment problem.
+
+Specifically, create a Java application that will ask the user to enter two strings, will generate and fill in the dynamic programming chart and display it, and will then display in a nice way exactly how the gaps should be optimally inserted and report the optimal score.
+
 Submit your work by email as usual, with all your Java source files attached.
