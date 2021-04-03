@@ -1,4 +1,4 @@
-# CS-4050 Algorithms &amp; Algorithm Analysis
+# CS 4050 - Algorithms and Algorithm Analysis
 
 The emphasis of this course is on the design, analysis, and evaluation of efficient algorithms for a wide variety of computing problems.
 
