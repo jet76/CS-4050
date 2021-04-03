@@ -213,19 +213,19 @@ Here is a diagram showing the cell to be filled in, namely *A(i, j)* (“A” fo
   </tr>
   <tr>
     <td rowspan="3">i</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
+    <td>i<sub>0</sub>j<sub>0</sub></td>
+    <td>i<sub>0</sub>j<sub>1</sub></td>
+    <td>i<sub>0</sub>j<sub>2</sub></td>
   </tr>
   <tr>
-    <td> </td>
-    <td> </td>
-    <td> </td>
+    <td>i<sub>1</sub>j<sub>0</sub></td>
+    <td>i<sub>1</sub>j<sub>1</sub></td>
+    <td>i<sub>1</sub>j<sub>2</sub></td>
   </tr>
   <tr>
-    <td> </td>
-    <td> </td>
-    <td> </td>
+    <td>i<sub>2</sub>j<sub>0</sub></td>
+    <td>i<sub>2</sub>j<sub>1</sub></td>
+    <td>i<sub>2</sub>j<sub>2</sub></td>
   </tr>
  </table>
 
