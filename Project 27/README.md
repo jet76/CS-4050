@@ -25,16 +25,23 @@ Now we will state the key recursive connection between the original problem and 
 
 Consider strings *x<sub>0</sub>x<sub>1</sub>x<sub>2</sub>...x<sub>m−1</sub>* and *y<sub>0</sub>y<sub>1</sub>y<sub>2</sub>...y<sub>n−1</sub>* for positive integers *m* and *n*. The key recursive idea is simply to look at all possible decisions for the first pair of symbols, and then recursively figure out the optimal way to arrange the rest.
 
-First, we might put gaps in both strings in the first position. This would be silly, making no progress—leaving us with the same problem we started with as the sub-problem to be solved:  
+First, we might put gaps in both strings in the first position. This would be silly, making no progress—leaving us with the same problem we started with as the sub-problem to be solved:
+
 *− x<sub>0</sub> x<sub>1</sub> ··· x<sub>m−1</sub>  
-− y<sub>0</sub> y<sub>1</sub> ··· y<sub>n−1</sub>*  
-Or, we might chose to pair up x0 and y0:  
+− y<sub>0</sub> y<sub>1</sub> ··· y<sub>n−1</sub>*
+
+Or, we might chose to pair up x0 and y0:
+
 *x<sub>0</sub> x<sub>1</sub> ··· x<sub>m−1</sub>  
-y<sub>0</sub> y<sub>1</sub> ··· y<sub>n−1</sub>*  
-This would produce a penalty of 0 or 1, depending on whether x0 = y0. Then, we would recursively decide how to best insert gaps in x1x2 . . . xm−1 and y1y2 . . . yn−1, and add whatever best penalty is obtained for that subproblem to 0 or 1.  
-Or, we could chose to insert a gap in the first string, matching it with y0:  
-− x0 x1 · · · xm−1
-y0 y1 y2 · · · yn−1
+y<sub>0</sub> y<sub>1</sub> ··· y<sub>n−1</sub>*
+
+This would produce a penalty of 0 or 1, depending on whether x0 = y0. Then, we would recursively decide how to best insert gaps in x1x2 . . . xm−1 and y1y2 . . . yn−1, and add whatever best penalty is obtained for that subproblem to 0 or 1.
+
+Or, we could chose to insert a gap in the first string, matching it with y0:
+
+*\− x0 x1 · · · xm−1  
+y0 y1 y2 · · · yn−1*
+
 for a penalty of 2, leaving us to recursively solve the sub-problem of optimally inserting
 gaps in x0x1 . . . xm−1 and y1y2 . . . yn−1.
 Similarly, we could chose to insert a gap in the second string, matching it with x0:
