@@ -54,20 +54,6 @@ for a penalty of 2, and recursively solve the sub-problem of optimally inserting
 Now, we could simply implement this algorithm using recursion directly, but as usual, this would lead to sub-problems being solved repeatedly and a high degree of inefficiency, so as usual we look to build a table holding solutions to all the appropriate sub-problems. To do this, we simply note that the sub-problems we are talking about above, and the original problem, all have the same form, namely “find the optimal way to insert gaps in *x<sub>i</sub> ... x<sub>m−1</sub>* and *y<sub>j</sub> ... y<sub>n−1</sub>*, where *0 &leq; i < m* and *0 &leq; j &leq; n*.
 
 So, we create a grid of cells, one for each pair of values i and j, like so, for the given problem:  
-<pre>
-  T A A G G T C A -
-A
-A
-C
-A
-G
-T
-T
-A
-C
-C
--
-</pre>
 <table>
   <tr>
     <td></td>
@@ -215,19 +201,33 @@ C
   </tr>
 </table>
 
-where we have added an extra gap at the end of each string to provide a convenient way
-to put the base cases in the chart. For consistency we say that matching two gaps has a
-penalty of 0.
-Now you need to figure out how to compute the value in each cell in terms of already
-filled-in cells.
-! Here is a diagram showing the cell to be filled in, namely A(i, j) (“A” for alignment?), and
-some neighboring cells. Figure out a precise description (formula, algorithm, or whatever)
-for how to compute A(i, j) using the values in relevant neighboring cells, which as always
-with dynamic programming represent simpler sub-problems than A(i, j).
-i
-j
-CS 4050 Spring 2019 Page 94
-Chapter 6: Dynamic Programming March 19, 2019
+where we have added an extra gap at the end of each string to provide a convenient way to put the base cases in the chart. For consistency we say that matching two gaps has a penalty of 0.
+
+Now you need to figure out how to compute the value in each cell in terms of already filled-in cells.
+
+Here is a diagram showing the cell to be filled in, namely *A(i, j)* (“A” for alignment?), and some neighboring cells. Figure out a precise description (formula, algorithm, or whatever) for how to compute *A(i, j)* using the values in relevant neighboring cells, which as always with dynamic programming represent simpler sub-problems than *A(i, j)*.
+<table>
+  <tr>
+    <td></td>
+    <td colspan="3">j</td>
+  </tr>
+  <tr>
+    <td rowspan="3">i</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
 ! Now, use your description to fill in all the cells in the chart below. Note that you will
 need to fill in base case cells “from scratch,” that is, not using the same number of cells
 as the general case. In addition to writing the score in each cell, you must draw an arrow
