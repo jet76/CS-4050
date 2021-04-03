@@ -224,7 +224,7 @@ Here is a diagram showing the cell to be filled in, namely *A(i, j)* (“A” fo
   </tr>
   <tr>
     <td>i<sub>2</sub>j<sub>0</sub></td>
-    <td>i<sub>2</sub>j<sub>1</sub></td>
+    <td>*i<sub>2</sub>j<sub>1</sub>*</td>
     <td><i>i<sub>2</sub>j<sub>2</sub></i></td>
   </tr>
  </table>
