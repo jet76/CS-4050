@@ -209,7 +209,7 @@ Here is a diagram showing the cell to be filled in, namely *A(i, j)* (“A” fo
 <table>
   <tr>
     <td> </td>
-    <td colspan="3" style="text-align: center;">j</td>
+    <td colspan="3" align="center">j</td>
   </tr>
   <tr>
     <td rowspan="3">i</td>
