@@ -10,7 +10,7 @@ Apparently the model developed here is actually used by biologists.
 As an example instance of the problem, suppose we have the sequences AACAGTTACC and TAAGGTCA and we want to align them so that as many symbols as possible match up. We could simply shift them against each other and try to find the shift so that as many symbols as possible match up, but the biology suggests that instead we should allow ourselves to insert any number of gaps, denoted by -, in each sequence, and try in this way to get lots of pairs of symbols to match up. We need a score for any given pair of sequences, with gaps inserted, so we can decide which is better, so we say that if two actual symbols don’t match, we are penalized 1 point, and if an actual symbol is matched with a gap, then we are penalized 2 points.
 
 For example, if we insert some gaps in our sequences, like so:  
-- A A C A G T T A C C  
+-- A A C A G T T A C C  
 T A A - G G T - - C A  
 we would be penalized 8 points for the 4 actual symbols that are paired up with gaps, and 2 points for the 2 pairs of actual symbols that don’t match, for a score of 10.
 
