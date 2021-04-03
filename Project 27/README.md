@@ -208,25 +208,26 @@ Now you need to figure out how to compute the value in each cell in terms of alr
 Here is a diagram showing the cell to be filled in, namely *A(i, j)* (“A” for alignment?), and some neighboring cells. Figure out a precise description (formula, algorithm, or whatever) for how to compute *A(i, j)* using the values in relevant neighboring cells, which as always with dynamic programming represent simpler sub-problems than *A(i, j)*.
 <table>
   <tr>
-    <td></td>
-    <td colspan="3">j</td>
+    <td> </td>
+    <td colspan="3" style="text-align: center;">j</td>
   </tr>
   <tr>
     <td rowspan="3">i</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td> </td>
+    <td> </td>
+    <td> </td>
   </tr>
+ </table>
 
 ! Now, use your description to fill in all the cells in the chart below. Note that you will
 need to fill in base case cells “from scratch,” that is, not using the same number of cells
