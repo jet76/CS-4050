@@ -206,9 +206,9 @@ where we have added an extra gap at the end of each string to provide a convenie
 Now you need to figure out how to compute the value in each cell in terms of already filled-in cells.
 
 Here is a diagram showing the cell to be filled in, namely *A(i, j)* (“A” for alignment?), and some neighboring cells. Figure out a precise description (formula, algorithm, or whatever) for how to compute *A(i, j)* using the values in relevant neighboring cells, which as always with dynamic programming represent simpler sub-problems than *A(i, j)*.
-<table>
+<table font-style="italic">
   <tr>
-    <td> </td>
+    <td></td>
     <td colspan="3" align="center">j</td>
   </tr>
   <tr>
