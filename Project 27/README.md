@@ -51,7 +51,7 @@ Similarly, we could chose to insert a gap in the second string, matching it with
 
 for a penalty of 2, and recursively solve the sub-problem of optimally inserting gaps in *x<sub>1</sub>x<sub>2</sub> ... x<sub>m−1</sub>* and *y<sub>0</sub>y<sub>1</sub> ... y<sub>n−1</sub>*.
 
-Now, we could simply implement this algorithm using recursion directly, but as usual, this would lead to sub-problems being solved repeatedly and a high degree of inefficiency, so as usual we look to build a table holding solutions to all the appropriate sub-problems. To do this, we simply note that the sub-problems we are talking about above, and the original problem, all have the same form, namely “find the optimal way to insert gaps in *x<sub>i</sub> ... x<sub>m−1</sub>* and *y<sub>j</sub> ... y<sub>n−1</sub>*, where *0 <= i < m* and *0 <= j <= n*.
+Now, we could simply implement this algorithm using recursion directly, but as usual, this would lead to sub-problems being solved repeatedly and a high degree of inefficiency, so as usual we look to build a table holding solutions to all the appropriate sub-problems. To do this, we simply note that the sub-problems we are talking about above, and the original problem, all have the same form, namely “find the optimal way to insert gaps in *x<sub>i</sub> ... x<sub>m−1</sub>* and *y<sub>j</sub> ... y<sub>n−1</sub>*, where *0 &leq; i < m* and *0 &leq; j &leq; n*.
 
 So, we create a grid of cells, one for each pair of values i and j, like so, for the given problem:
 -
