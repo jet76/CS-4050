@@ -209,43 +209,173 @@ Here is a diagram showing the cell to be filled in, namely *A(i, j)* (“A” fo
 <table>
   <tr>
     <td></td>
-    <td colspan="3" align="center">j</td>
+    <td colspan="3" align="center"><i>j</i></td>
   </tr>
   <tr>
-    <td rowspan="3">i</td>
-    <td>i<sub>0</sub>j<sub>0</sub></td>
-    <td>i<sub>0</sub>j<sub>1</sub></td>
-    <td>i<sub>0</sub>j<sub>2</sub></td>
+    <td rowspan="3"><i>i</i></td>
+    <td><i>i<sub>0</sub>j<sub>0</sub></i></td>
+    <td><i>i<sub>0</sub>j<sub>1</sub></i></td>
+    <td><i>i<sub>0</sub>j<sub>2</sub></i></td>
   </tr>
   <tr>
-    <td>i<sub>1</sub>j<sub>0</sub></td>
-    <td>i<sub>1</sub>j<sub>1</sub></td>
-    <td>i<sub>1</sub>j<sub>2</sub></td>
+    <td><i>i<sub>1</sub>j<sub>0</sub></i></td>
+    <td><i>i<sub>1</sub>j<sub>1</sub></i></td>
+    <td><i>i<sub>1</sub>j<sub>2</sub></i></td>
   </tr>
   <tr>
-    <td>i<sub>2</sub>j<sub>0</sub></td>
-    <td>*i<sub>2</sub>j<sub>1</sub>*</td>
+    <td><i>i<sub>2</sub>j<sub>0</sub></i></td>
+    <td><i>i<sub>2</sub>j<sub>1</sub></i></td>
     <td><i>i<sub>2</sub>j<sub>2</sub></i></td>
   </tr>
  </table>
 
-! Now, use your description to fill in all the cells in the chart below. Note that you will
-need to fill in base case cells “from scratch,” that is, not using the same number of cells
-as the general case. In addition to writing the score in each cell, you must draw an arrow
-or otherwise indicate which of the three possible decisions is made to produce the optimal
-score for the cell.
--
-C
-C
-A
-T
-T
-G
-A
-C
-A
-A
-T A A G G T C A -
+Now, use your description to fill in all the cells in the chart below. Note that you will need to fill in base case cells “from scratch,” that is, not using the same number of cells as the general case. In addition to writing the score in each cell, you must draw an arrow or otherwise indicate which of the three possible decisions is made to produce the optimal score for the cell.
+<table>
+  <tr>
+    <td></td>
+    <td>T</td>
+    <td>A</td>
+    <td>A</td>
+    <td>G</td>
+    <td>G</td>
+    <td>T</td>
+    <td>C</td>
+    <td>A</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>G</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>T</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>T</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>C</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>-</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 ! Once the chart is filled in, write down the optimal way of aligning the two sequences, and
 verify that the penalty is correct.
 ! Demonstrate (draw your own tidy chart) your dynamic programming algorithm for the
