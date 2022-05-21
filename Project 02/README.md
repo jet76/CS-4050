@@ -7,3 +7,12 @@ The Hamiltonian circuit problem is to determine whether we can start at vertex 1
 
 Figure out how to use the brute force technique to solve an instance of this problem, and demonstrate your algorithm on this matrix (where 0 means no edge and 1 means there is an edge):  
 
+$$
+\begin{bmatrix}
+0 & 1 & 1 & 0 & 1\\
+0 & 0 & 1 & 1 & 0\\
+0 & 1 & 0 & 0 & 1\\
+1 & 1 & 1 & 0 & 0\\
+0 & 1 & 0 & 1 & 0\\
+\end{bmatrix}
+$$
