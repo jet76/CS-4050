@@ -6,9 +6,9 @@ Here is an example instance, where *w<sub>j</sub>* is the weight of item *j*, *p
 
 <table>
   <tr>
-    <th>Item *j*</th>
-    <th>*p<sub>j</sub>*</th>
-    <th>*w<sub>j</sub>*</th>
+    <th>Item <i>j</i></th>
+    <th><i>p<sub>j</sub></i></th>
+    <th><i>w<sub>j</sub></i></th>
   </tr>
   <tr>
     <td>1</td>
