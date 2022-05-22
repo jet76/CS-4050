@@ -2,13 +2,11 @@
 
 In our upcoming work on algorithms designed using the divide and conquer technique, we will see that the number of representative operations *T(n)* for an instance of size *n* will be defined in terms of recursive calls to the same function *T*. For example, here are some efficiency functions for algorithms you have already seen, or will see:  
 
-<pre>
-T(n) = T(n/2) + 1          (binary search)  
-T(n) = 2T(n/2) + n         (merge sort)  
-T(n) = 3T(n/2) + n         (Karatsuba’s algorithm)  
-T(n) = 7T(n/2)             (Strassen’s algorithm—multiplications)  
-T(n) = 7T(n/2) + 18(n/2)<sup>2</sup>  (Strassen’s algorithm—additions)  
-</pre>  
+T(n) = T(n/2) + 1  (binary search)  
+T(n) = 2T(n/2) + n  (merge sort)  
+T(n) = 3T(n/2) + n  (Karatsuba’s algorithm)  
+T(n) = 7T(n/2)  (Strassen’s algorithm—multiplications)  
+T(n) = 7T(n/2) + 18(n/2)<sup>2</sup>  (Strassen’s algorithm—additions)   
 
 In view of these recurrence relations, and with other possibilities in mind, we want to solve, by the substitution technique, any recurrence relation of the form  
 
