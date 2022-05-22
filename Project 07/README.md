@@ -7,7 +7,7 @@ T(n) = T(n/2) + 1           (binary search)
 T(n) = 2T(n/2) + n          (merge sort)  
 T(n) = 3T(n/2) + n          (Karatsuba’s algorithm)  
 T(n) = 7T(n/2)              (Strassen’s algorithm—multiplications)  
-T(n) = 7T(n/2) + 18(n/2)<sup>2</sup>    (Strassen’s algorithm—additions)  
+T(n) = 7T(n/2) + 18(n/2)<sup>2</sup>   (Strassen’s algorithm—additions)  
 </pre>  
 
 In view of these recurrence relations, and with other possibilities in mind, we want to solve, by the substitution technique, any recurrence relation of the form  
