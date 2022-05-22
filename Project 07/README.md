@@ -17,7 +17,7 @@ where, to keep things nice, we will only consider n that are powers of b (typica
 
 T(n) = T(b<sup>m</sup>) = aT(b<sup>m−1</sup>) + c(b<sup>m</sup>)<sup>d</sup> = aT(b<sup>m−1</sup>) + cb<sup>md</sup> = aT(b<sup>m−1</sup>) + c(b<sup>d</sup>)<sup>m</sup> = aT(b<sup>m−1</sup>) + cp<sup>m</sup>  
 
-where we use p = b<aup>d</sup> for convenience.  
+where we use *p = b<sup>d</sup>* for convenience.  
 
 Now, we substitute this recurrence in for T(b<sup>m−1</sup>), obtaining  
 
