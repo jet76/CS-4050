@@ -5,7 +5,6 @@ For a new problem/algorithm to tackle by the divide and conquer technique, consi
 Most people (I hope!) had to learn in elementary school an algorithm for multiplying two integers by hand. One version of this algorithm is demonstrated here—each row is produced by multiplying the first number by one digit of the second number, suitably shifted, and then the columns have to be added up:  
 
 $$
-\begin{tabular}{c c c c c c c c}
 &&&&3&1&7&8\\
 &&&&5&6&9&4\\
 \hline
@@ -15,5 +14,4 @@ $$
 1&5&8&9&0\\
 \hline
 1&8&0&9&5&5&3&2
-\end{tabular}
 $$
