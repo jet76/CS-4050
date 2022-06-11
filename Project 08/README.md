@@ -16,19 +16,19 @@ This is true because each of the n possible choices of pivot item location is eq
 
 Show that
 
-$$\sum_{p=1}^{n}[A(p-1)+A(n-p)]=2\sum_{p=1}^{n}A(p-1)$$  
+$\sum_{p=1}^{n}[A(p-1)+A(n-p)]=2\sum_{p=1}^{n}A(p-1)$  
 
 So,  
 
-$$A(n)=\frac{2}{n}\sum_{p=1}^{n}A(p-1)+n-1$$  
+$A(n)=\frac{2}{n}\sum_{p=1}^{n}A(p-1)+n-1$  
 
 So, we have the relationship  
 
-$$nA(n)=2\sum_{p=1}^{n}A(p-1)+n(n-1)$$  
+$nA(n)=2\sum_{p=1}^{n}A(p-1)+n(n-1)$  
 
 Now we do a clever technique, using the same relationship with a different index, substituting $n − 1$ for $n$ to obtain  
 
-$$(n-1)A(n-1)=2\sum_{p=1}^{n-1}A(p-1)+(n-1)(n-2)$$  
+$(n-1)A(n-1)=2\sum_{p=1}^{n-1}A(p-1)+(n-1)(n-2)$  
 
 Then we subtract these two equations, yielding  
 
@@ -38,7 +38,7 @@ Verify this algebra.
 
 Now, tidy things up to yield  
 
-$$\frac{A(n)}{n+1}=\frac{A(n-1)}{n}+\frac{2(n-1)}{n(n+1)}$$  
+$\frac{A(n)}{n+1}=\frac{A(n-1)}{n}+\frac{2(n-1)}{n(n+1)}$  
 
 This might have all been pointless, except we sort of lucked out and the two $A()$ terms look the same, but with the argument shifted, so we can define a new function by  
 
