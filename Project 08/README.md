@@ -29,3 +29,12 @@ $$nA(n)=2\sum_{p=1}^{n}A(p-1)+n(n-1)$$
 Now we do a clever technique, using the same relationship with a different index, substituting $n − 1$ for $n$ to obtain  
 
 $$(n-1)A(n-1)=2\sum_{p=1}^{n-1}A(p-1)+(n-1)(n-2)$$  
+
+Then we subtract these two equations, yielding  
+
+$$nA(n)-(n-1)A(n-1)=2A(n-1)+n(n-1)-(n-1)(n-2)=2A(n-1)+2(n-1)$$.  
+
+Verify this algebra.  
+
+Now, tidy things up to yield  
+
