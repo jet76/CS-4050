@@ -32,9 +32,22 @@ $$(n-1)A(n-1)=2\sum_{p=1}^{n-1}A(p-1)+(n-1)(n-2)$$
 
 Then we subtract these two equations, yielding  
 
-$$nA(n)-(n-1)A(n-1)=2A(n-1)+n(n-1)-(n-1)(n-2)=2A(n-1)+2(n-1)$$.  
+$nA(n)-(n-1)A(n-1)=2A(n-1)+n(n-1)-(n-1)(n-2)=2A(n-1)+2(n-1)$.  
 
 Verify this algebra.  
 
 Now, tidy things up to yield  
 
+$$\frac{A(n)}{n+1}=\frac{A(n-1)}{n}+\frac{2(n-1)}{n(n+1)}$$  
+
+This might have all been pointless, except we sort of lucked out and the two $A()$ terms look the same, but with the argument shifted, so we can define a new function by  
+
+$B(n)=\frac{A(n)}{n+1}$,  
+
+and see that the previous equation gives a recurrence relation for $B(n)$, namely  
+
+$B(n)=B(n-1)+\frac{2(n-1))}{n(n+1)}$.  
+
+Now we need to do our usual substitution technique to find a pattern for $B(n)$, and then bound the resulting sum (which is neither a geometric series nor an arithmetic series, which are pretty much the only ones we know how to add up exactly) by two integrals, both of which integrate to some multiple of the natural logarithm of $n$. Thus, $B(n)\in\Theta(log\ n)$, so $A(n)\in\Theta(n\ log\ n)$, by the definition of $B(n)$.  
+
+As a whole group, wrap up Project 7. Make sure every group got correct algebra, then apply to the divide-and-conquer examples given and produce finally $\Theta$ result in terms of $n$ for each.  
