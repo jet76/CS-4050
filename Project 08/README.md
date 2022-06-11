@@ -16,3 +16,16 @@ This is true because each of the n possible choices of pivot item location is eq
 
 Show that
 
+$$\sum_{p=1}^{n}[A(p-1)+A(n-p)]=2\sum_{p=1}^{n}A(p-1)$$  
+
+So,  
+
+$$A(n)=\frac{2}{n}\sum_{p=1}^{n}A(p-1)+n-1$$  
+
+So, we have the relationship  
+
+$$nA(n)=2\sum_{p=1}^{n}A(p-1)+n(n-1)$$  
+
+Now we do a clever technique, using the same relationship with a different index, substituting $n − 1$ for $n$ to obtain  
+
+$$(n-1)A(n-1)=2\sum_{p=1}^{n-1}A(p-1)+(n-1)(n-2)$$  
