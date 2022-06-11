@@ -10,9 +10,9 @@ Let $A(n)$ be the average time for quicksort to sort $n$ items and find a recurr
 
 We assume that given $n$ items to partition, all $n$ are equally likely. So,  
 
-$$A(n)=\sum_{p=1}^{n}\frac{1}{n}[A(p-1)+A(n-p)]+n-1]$$  
+$$A(n)=\sum_{p=1}^{n}\frac{1}{n}[A(p-1)+A(n-p)]+n-1$$  
 
-This is true because each of the n possible choices of pivot item location is equally likely, each with a probability of $1/n$, and the partition time is $n−1$ independent of the location of the pivot time, on average, and $A(p − 1) and A(n − p)$ are the average times needed to do the two recursive calls to quicksort on the two sublists produced by the partition.  
+This is true because each of the n possible choices of pivot item location is equally likely, each with a probability of $1/n$, and the partition time is $n−1$ independent of the location of the pivot time, on average, and $A(p − 1)$ and $A(n − p)$ are the average times needed to do the two recursive calls to quicksort on the two sublists produced by the partition.  
 
 Show that
 
