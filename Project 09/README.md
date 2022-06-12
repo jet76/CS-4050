@@ -7,7 +7,7 @@ Most people (I hope!) had to learn in elementary school an algorithm for multipl
 $$
 \begin{align*}
 & & & & 3 & 1 & 7 & 8\\
-& x & & 5 & 6 & 9 & 4\\
-\hrule
+& \times & & 5 & 6 & 9 & 4\\
+
 \end{align*}
 $$
