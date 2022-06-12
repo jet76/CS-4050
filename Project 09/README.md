@@ -6,8 +6,8 @@ Most people (I hope!) had to learn in elementary school an algorithm for multipl
 
 $$
 \begin{align*}
-x&=y           &  w &=z              &  a&=b+c\\
-2x&=-y         &  3w&=\frac{1}{2}z   &  a&=b\\
--4 + 5x&=2+y   &  w+2&=-1+w          &  ab&=cb
+&&&&3&1&7&8\\
+&x&&5&6&9&4\\
+\hrule
 \end{align*}
 $$
