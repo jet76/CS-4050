@@ -8,5 +8,14 @@ $$
 a & b \\
 c & d
 \end{bmatrix}
+\begin{bmatrix}
+e & f \\
+g & h
+\end{bmatrix}
+\equals
+\begin{bmatrix}
+ae+bg & af+bh \\
+ce+dg & cf+dh
+\end{bmatrix}
 $$ 
 
