@@ -3,8 +3,10 @@
 For large $n, \Theta(n^{3})$ can be a lot of work (though we are mostly studying an improved method for practice using divide and conquer, not because Strassen’s algorithm is so useful in practice).  
 Consider multiplication of two 2 by 2 matrices:  
 
-$$\begin{bmatrix}
+$$
+\begin{bmatrix}
 a & b \\
 c & d
-\end{bmatrix}$$ 
+\end{bmatrix}
+$$ 
 
