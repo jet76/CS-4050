@@ -28,12 +28,13 @@ The idea is to get the 8 scalars such as ae, bg, and so on, by multiplying sums 
 To understand Strassen’s idea, we use a 4 by 4 chart to visualize the terms obtained by a product of this sort. Here, for example, is the chart for $(a+b)(e+h) = ae+ah+be+bh$:  
 
 $$
-\begin{table}[]
-\begin{tabular}{lllll}
-+ &  &  &  & + \\
-+ &  &  &  & + \\
-  &  &  &  &   \\
-  &  &  &  &  
+\begin{center}
+\begin{tabular}{ |c|c|c| } 
+ \hline
+ cell1 & cell2 & cell3 \\ 
+ cell4 & cell5 & cell6 \\ 
+ cell7 & cell8 & cell9 \\ 
+ \hline
 \end{tabular}
-\end{table}
+\end{center}
 $$
