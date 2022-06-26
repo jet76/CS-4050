@@ -12,7 +12,7 @@ c & d
 e & f \\
 g & h
 \end{bmatrix}
-\equals
+\eq
 \begin{bmatrix}
 ae+bg & af+bh \\
 ce+dg & cf+dh
