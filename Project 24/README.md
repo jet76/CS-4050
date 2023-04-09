@@ -20,4 +20,4 @@ When you are satisfied with your work, email me with one file as an attachment, 
 
 Your main class should be named Floyd. Be careful of going overboard on unnecessarily complex object-orientation—this assignment can trivially be done using one class, or at most two.
 
-If your entire application consists of Floyd.java send me that. Or, if your application uses more than one class, attach them all. If you use an IDE, be sure to remove any non-portable extra stuff.
+If your entire application consists of ```Floyd.java``` send me that. Or, if your application uses more than one class, attach them all. If you use an IDE, be sure to remove any non-portable extra stuff.
