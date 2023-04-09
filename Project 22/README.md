@@ -58,3 +58,5 @@ To start, fill in this chart, representing a game that starts with 7 rocks in pi
     <td>7</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
   </tr>
 </table>
+
+Once you have figured out the key ideas, you can actually see that the game is trivial and you don’t really need the chart at all. Note that this is not usually the case with dynamic programming—you usually have to do all the work to fill in the cells of the chart.
