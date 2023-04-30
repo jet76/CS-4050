@@ -1,4 +1,4 @@
-# Project 29 -   
+# Project 29 - Instant Insanity  
 
 For this Project work through the discussion and do the steps to solve a somewhat challenging puzzle (many of you tried to solve this puzzle-unsuccessfully-during the first class session) by cleverly transforming a puzzle into a graph where the solution to the puzzle is fairly obvious in the graph.  
 
